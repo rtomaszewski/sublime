@@ -6,7 +6,8 @@ class DeviceListCommand(sublime_plugin.TextCommand):
     https://github.com/Veedrac/Sublime-Extras
     """
 
-    MYDEBUG = 1
+    # set it to 1 if you want to see debugging messages in the console 
+    MYDEBUG = 0
 
     def mydebug(self,s):
         if DeviceListCommand.MYDEBUG :
