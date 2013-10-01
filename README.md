@@ -3,11 +3,16 @@ sublime
 
 Some of my code that i run to make my live and work easier when working with sublime editor.
 
-## Instalation
+Instalation instruction can be found below with the descrption as well. For more info you can refere to this blog entries as well:
+
+[sublime-macro-error.html ] (http://rtomaszewski.blogspot.co.uk/2013/10/sublime-macro-error.html)
+
+
+## Example instalation for the device_list.py file.
 
 ### Option 1
 
-From the Toolsmenu select New Plugin. Replace the exmaple code with a code from one of the files (for exmaple from device_list.py)
+From the Tools menu select New Plugin. Replace the exmaple code with a code from one of the files (for exmaple from device_list.py)
 
 #### Option 2 (full instalation)
 
@@ -21,7 +26,7 @@ Reloading plugin C:\Users\...\sublime2\Data\Packages\User\<file_name>
 
 ## Testing
 
-To use our extension you can either :
+To use the extension you can either :
 
 - open console and type this comamnd
 
