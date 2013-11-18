@@ -1,0 +1,39 @@
+[
+
+# how to create a custom 3 pane layout
+
+{
+    "id": "view",
+    "children": [{
+        "id": "layout",
+        "children": [{
+             "command": "set_layout",
+             "caption" : "Custom: 3 Pane",
+// 			 "keys" : ["ctrl+k", "3"],
+             "mnemonic": "C", 
+             "args": {
+			     "cells": [[0, 0, 1, 1], [0, 1, 2, 2], [1, 0, 2, 1]],
+				 "rows": [0.0, 0.5, 1.0], 
+				 "cols": [0.0, 0.5, 1.0] 
+			}
+		}]
+	}]
+},
+
+# create a new menu entry with one submenu
+
+{
+        "caption": "Rack",
+        "mnemonic": "r",
+        "id": "rack",
+        "children":
+        [
+            {
+                "command": "device_list", 
+                "caption": "run device_list"
+            },
+            { "caption": -"" }
+        ]
+    }
+]
+
