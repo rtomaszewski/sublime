@@ -1,6 +1,6 @@
 [
 
-# how to create a custom 3 pane layout
+// how to create a custom 3 pane layout
 
 {
     "id": "view",
@@ -20,7 +20,7 @@
 	}]
 },
 
-# create a new menu entry with one submenu
+// create a new menu entry with one submenu
 
 {
         "caption": "Rack",
@@ -31,8 +31,8 @@
             {
                 "command": "device_list", 
                 "caption": "run device_list"
-            },
-            { "caption": -"" }
+            }
+//            { "caption": "-" }
         ]
     }
 ]
