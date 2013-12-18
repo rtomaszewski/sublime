@@ -61,7 +61,7 @@ class DeviceListCommand(sublime_plugin.TextCommand):
         self.mydebug("_replace_test")
 
         replace_str = ""
-        command = "port-cli -E "
+        command = "port-cli -E -d "
         
         for elem in self.lines[0:-1] :
             replace_str += elem["id"] + ":" + elem["name"] + "\n"
